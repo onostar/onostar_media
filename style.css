@@ -1678,20 +1678,27 @@ main{
 /* partners */
 #partners{
     width:100%;
-    background:rgba(0, 0, 0, .9);
     color:#fff;
-    padding:40px;
-    margin:0;
+    margin:40px 0;
 }
 #partners h3{
-    text-align:left;
-    color:#fff;
-    font-family: "Pacifico";
-    font-size:1.5rem;
+    text-align:center;
+    color:var(--secondaryColor);
+    /* font-family: "Pacifico"; */
+    font-size:1rem;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+}
+#partners h4{
     text-transform: capitalize;
+    font-size: 2rem;
+    text-align:center;
+    color:var(--moreColor);
 }
 .partners{
-    display:none;
+    padding:40px;
+    display:flex;
+    background:rgba(0, 0, 0, .9);
     justify-content: space-around;
     padding:20px;
 }
@@ -5138,6 +5145,31 @@ header i{
 .whyChoose .choose_text .texts a:hover{
     background:var(--secondaryColor);
 }
+/* request quote section */
+#quote_request{
+    background: var(--primaryColor);
+    padding:20px;
+    width:80%;
+    margin:200px auto 0;
+    text-align: center;
+    color:#fff;
+
+}
+#quote_request p{
+    width:80%;
+    margin:auto;
+}
+#quote_request h3{
+    text-transform: uppercase;
+}
+#quote_request a{
+    background:transparent;
+    border:1px solid #fff;
+    box-shadow: 2px 2px 2px #222;
+    padding: 5px;
+    font-family: "Pacifico";
+    color:#fff;
+}
 @media screen and (max-width: 800px){
     #topHeader{
         justify-content: space-between;
@@ -6272,6 +6304,13 @@ header i{
         height:200px;
     }
     .product .more_details{
+        width:100%;
+    }
+    #quote_request{
+        width:100%;
+        margin:20px 0;
+    }
+    #quote_request p{
         width:100%;
     }
 }

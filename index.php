@@ -423,8 +423,16 @@
             </div>
             
         </section>
+        <!-- quote in full -->
+        <section id="quote_request">
+            <h3>TOGETHER WE INNOVATE THE FUTURE</h3>
+            <p>We are an enterprise software development company that is inspired by the future. Our success is directly derived from the continued success of our Clients.<br>We are dedicated to always delivering on our promise to be the results driven partner that our Clients expect. When it comes to ICT, we are your ideal partner</p><br>
+            <div class="block">
+                <a href="contact.php">Let's get started <i class="fas fa-paper-plane"></i></a>
+            </div>
+        </section>
         <!-- team -->
-        <section id="team">
+        <!-- <section id="team">
             <h2>The Amazing team behind our Establishment</h2>
             <hr>
             <p>We have a qualified team of Scientists, Pharmacist, health technicians, and top professionals in the health sector.</p>
@@ -443,31 +451,37 @@
                 </figure>
                 
             </div>
-            <!-- <div class="more_team">
+            <div class="more_team">
                 <a href="about.php#team" title="View team members">View more <i class="fas fa-angle-double-right"></i></a>
-            </div> -->
-        </section>
+            </div> 
+        </section> -->
         <!--Partners -->
-        <!-- <section id="partners">
-            <h3>Our Partners</h3>
+        <section id="partners">
+            <h3>Our Clients</h3>
+            <h4>We work with Amazing Clients</h4>
             <div class="partners">
                 <figure>
                     <img src="images/" alt="partners">
+                    <figcaption></figcaption>
                 </figure>
                 <figure>
                     <img src="images/" alt="partners">
+                    <figcaption></figcaption>
                 </figure>
                 <figure>
                     <img src="images/" alt="partners">
+                    <figcaption></figcaption>
                 </figure>
                 <figure>
                     <img src="images/" alt="partners">
+                    <figcaption></figcaption>
                 </figure>
                 <figure>
                     <img src="images/" alt="partners">
+                    <figcaption></figcaption>
                 </figure>
             </div>
-        </section> -->
+        </section>
         <!-- online courses -->
         <Section id="plans">
             <h3 class="plans_title">Our Products</h3>
