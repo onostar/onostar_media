@@ -1,0 +1,1 @@
+Igbinedion Cllege of Health is an Educational INstitution dedicated to the training of students to become professionals in the Health sector
