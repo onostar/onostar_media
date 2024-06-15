@@ -47,7 +47,7 @@
         <header id="mainHeader" class="main_header">
             <h1>
                 <a href="index.php">
-                    <img src="images/new_logo1b-removebg-preview.png" alt="logo">
+                    <img src="images/logo.png" alt="logo">
                 </a>
             </h1>
             <nav id="navigation">
@@ -58,7 +58,7 @@
                     </li>
                    
                     <li><a href="#products" title="Our products"><i class="fa-solid fa-server"></i>Products</a></li>
-                    <li><a href="blog.php" title="News letter"><i class="fa-solid fa-newspaper"></i>Blog</a></li>
+                    <li><a href="articles.php" title="News letter"><i class="fa-solid fa-newspaper"></i>Blog</a></li>
                     <li id="login"><a href="contact.php" title="Contact us"><i class="fas fa-headset"></i> Get a Quote</a></li>
                     
                 </ul>
@@ -458,39 +458,63 @@
         <!--Partners -->
         <section id="partners">
             <h3>Our Clients</h3>
-            <h4>We work with Amazing Clients</h4>
+            <!-- <h4>We work with Amazing Clients</h4> -->
             <div class="partners">
                 <figure>
-                    <img src="images/" alt="partners">
-                    <figcaption></figcaption>
+                    <img src="images/creamella.jpg" alt="partners">
+                    <figcaption>Creamella Foods Ltd</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/" alt="partners">
-                    <figcaption></figcaption>
+                    <img src="images/icon1.png" alt="partners">
+                    <figcaption>1FCA Divine Ventures</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/" alt="partners">
-                    <figcaption></figcaption>
+                    <img src="images/steel_coven.jpg" alt="partners">
+                    <figcaption>Steel Coven Nig</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/" alt="partners">
-                    <figcaption></figcaption>
+                    <img src="images/roteech.webp" alt="partners">
+                    <figcaption>Rotech</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/" alt="partners">
-                    <figcaption></figcaption>
+                    <img src="images/real_care.png" alt="partners">
+                    <figcaption>Real care Pharmacy</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/goodies.jpg" alt="partners">
+                    <figcaption>Goodies Supermarket</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/icon1.png" alt="partners">
+                    <figcaption>Solmik Supermarket</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/ag.png" alt="partners">
+                    <figcaption>AG Market place</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/elgra.jpg" alt="partners">
+                    <figcaption>Elgra Pharmacy</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/bclassic.jpg" alt="partners">
+                    <figcaption>B Classic Pharma</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/icon1.png" alt="partners">
+                    <figcaption>Maxime Pharmacy</figcaption>
                 </figure>
             </div>
         </section>
         <!-- online courses -->
         <Section id="plans">
-            <h3 class="plans_title">Our Products</h3>
-            <h2>Check out our catalogue of products</h2>
+            <h3 class="plans_title">Our Articles</h3>
+            <h2>Check out our latest articles</h2>
             <!-- <p class="first_p">We run all forms of investigations across the following departments</p> -->
             <div class="plans">
                 <?php
                     // get only four products
-                    $get_products = $connectdb->prepare("SELECT SUBSTRING_INDEX (description, ' ', 10) AS details, item_name, item_id, photo FROM items ORDER BY date_created DESC LIMIT 4");
+                    $get_products = $connectdb->prepare("SELECT SUBSTRING_INDEX (details, ' ', 15) AS details, title, article_id, photo, post_date FROM articles ORDER BY post_date DESC LIMIT 4");
                     $get_products->execute();
                     if($get_products->rowCount() > 0){
                         $rows = $get_products->fetchAll();
@@ -500,31 +524,31 @@
                     <figure>
                         <div class="project_img">
                             <div class="pro_img">
-                                <img src="<?php echo 'admin/photos/'.$row->photo?>" alt="<?php echo $row->item_name?>">
+                                <img src="<?php echo 'admin/photos/'.$row->photo?>" alt="<?php echo $row->title?>">
                             </div>
-                            <a href="product_info.php?id=<?php echo $row->item_id?>"> <i class="fas fa-eye"></i></a>
+                            <a href="article_info.php?id=<?php echo $row->article_id?>"> <i class="fas fa-eye"></i></a>
                         </div>
                         <figcaption>
-                            <h3><?php echo strtoupper($row->item_name)?></h3>
+                            <h3><?php echo strtoupper($row->title)?></h3>
                             <p class="course_details">
                                <?php echo $row->details?>
                             </p>
                             <div class="author">
-                                <img src="images/logo.jpg" alt="logo">
-                                <p class="author_name">B Classic Pharma</p>
+                                <img src="images/icon.png" alt="logo">
+                                <p style="color:var(--moreColor);" class="author_name"><?php echo date("jS M, Y", strtotime($row->post_date))?></p>
                             </div>
                         </figcaption>
                     </figure>
                 </div>
                 
                 <?php endforeach; }else{?>
-                <p style="color:var(--moreColor); text-align:center">No Product in inventory</p>
+                <p style="color:var(--moreColor); text-align:center">No New article</p>
                 <?php }?>
                 
             </div>
             
                 <?php if($get_products->rowCount() > 0){?>
-                    <a id="moreProjects" href="products.php" title="View more products">View all products <i class="fas fa-angle-double-right"></i></a>
+                    <a id="moreProjects" href="articles.php" title="View more products">View all articles <i class="fas fa-angle-double-right"></i></a>
                 <?php }?>
         </Section>
         <!-- gallery -->

@@ -3950,3 +3950,85 @@ function deleteTarget(item){
           return;
      }
 }
+
+//add articles
+function addArticle(){
+     let title = document.getElementById("title").value;
+     let details = document.getElementById("details").value;
+     let photo = document.getElementById("photo").value;
+    
+     if(title.length == 0 || title.replace(/^\s+|\s+$/g, "").length == 0){
+          alert("Please enter article title")
+          $("title").focus();
+          return;
+     }else if(details.length == 0 || details.replace(/^\s+|\s+$/g, "").length == 0){
+          alert("Please input article details");
+          $("#details").focus();
+          return;
+     
+     }else if(photo.length == 0 || photo.replace(/^\s+|\s+$/g, "").length == 0){
+          alert("Please upload first image");
+          $("#photo").focus();
+          return;
+    
+     }else{
+          var fd = new FormData();
+          var files = $('#photo')[0].files[0];
+          fd.append('photo',files);
+          fd.append('title',title);
+          fd.append('details', details);
+          
+          $.ajax({
+               url: '../controller/add_article.php',
+               type: 'post',
+               data: fd,
+               contentType: false,
+               processData: false,
+               success: function(response){
+                    if(response != 0){
+                    $(".info").html(response); 
+                   
+                    }else{
+                         alert('file not uploaded');
+                         return
+                    }
+               },
+          });
+          
+     }
+     $("#article").val('');
+     $("#photo").val('');
+     $("#details").val('');
+     return false;    
+}
+
+
+//update articel
+//modify item name
+function updateArticle(){
+     let article = document.getElementById("article").value;
+     let title = document.getElementById("title").value;
+     let details = document.getElementById("details").value;
+     if(title.length == 0 || title.replace(/^\s+|\s+$/g, "").length == 0){
+          alert("Please input title!");
+          $("#title").focus();
+          return;
+     }else if(details.length == 0 || details.replace(/^\s+|\s+$/g, "").length == 0){
+          alert("Please input article details!");
+          $("#details").focus();
+          return;
+     }else{
+          $.ajax({
+               type : "POST",
+               url : "../controller/update_article.php",
+               data: {article:article, title:title, details:details},
+               success : function(response){
+                    $("#item_list").html(response);
+               }
+          })
+          setTimeout(function(){
+               $("#item_list").load("articles.php #item_list");
+          }, 1500);
+          return false
+     }
+ }
