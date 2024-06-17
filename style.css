@@ -5347,7 +5347,8 @@ header i{
         
     }
     .taglines h2{
-        width:90%;
+        width:95%;
+        margin: 0 auto;
         /* background:var(--tertiaryColor); */
         color:#fff;
         font-size:2rem;
@@ -5358,7 +5359,7 @@ header i{
         margin-top:10px;
         width:90%;
         /* margin:0 auto; */
-        /* text-align:center; */
+        text-align:center;
     }
     .taglines .btns a{
         font-size:.8rem;
@@ -5373,7 +5374,7 @@ header i{
         /* justify-content: space-evenly; */
         flex-wrap: wrap;
         gap:.7rem;
-        margin-left:20px;
+        margin-left:0;
     }
     .big_icons{
         width:80%;

@@ -69,6 +69,7 @@
                             <li><a href="#"></a></li>
                             <li><a href="#core_service">Productss</a></li>
                             <li><a href="contact.php">Contact</a></li>
+                            <li><a href="javascript:void(0)" class="showRequest">Training</a></li>
                             
                             
                         </div>

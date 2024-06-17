@@ -100,7 +100,7 @@ function displayFeatures(){
 }
 /* display about section */
 function displayAbout(){
-    if(document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000){
+    if(document.body.scrollTop > 500 || document.documentElement.scrollTop > 500){
         document.getElementById('about_us').style.display = 'flex';
     }else{
         document.getElementById('about_us').style.display = 'none';
