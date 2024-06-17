@@ -40,19 +40,19 @@
                 <p>get in touch</p>
                 <div class="add_info">
                     <i class="fas fa-street-view"></i>
-                    <p>Our Head office is located at 10 Upper sakponba road, Opp. Nomayo street, Benin city, Edo state</p>
+                    <p>Our Head office is located at 1 Ogidan street, Off Atican Beachview Estate, Okun-ajah, Ajah, Lagos state, Nigeria</p>
                 </div>
                 <div class="add_info">
                     <i class="fas fa-database"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, explicabo?</p>
+                    <p>Our Branch office is located behind Okabere Community Road, Off Benin/Sapele Road, Benin City, Edo state, Nigeria</p>
                 </div>
                 <div class="add_info">
                     <i class="fas fa-phone"></i>
-                    <p>You can also call us on these numbers:<br> +234 706 420 4157</p>
+                    <p>You can also call us on these numbers:<br> +234 706 889 7068</p>
                 </div>
                 <div class="add_info">
                     <i class="fas fa-envelope"></i>
-                    <p>Send us an email at info@bclassicpharma.com, contact@bclassicpharma.com</p>
+                    <p>Send us an email at info@onostarmedia.com, contact@onostarmedia.com</p>
                 </div>
             </div>
             <div class="invest_form">

@@ -781,10 +781,13 @@ main{
 #request_form form .inputs .data input{
     padding:10px;
     /* font-style: italic; */
-    font-size:1rem;
-    /* background:transparent; */
-    color:var(--primaryColor);    
+    font-size:.9rem;
+    background:transparent;
+    color:#fff;    
     width:100%;
+    border-radius: 15px;
+    border: none;
+    border-bottom: 2px solid #fff;
 
 }
 #request_form form .inputs .data select{
@@ -796,7 +799,7 @@ main{
 
 #request_form form .inputs .data label{
     color:#fff;
-    font-size:1rem;
+    font-size:.9rem;
     font-weight: bold;
     display:block;
 
@@ -804,7 +807,7 @@ main{
 #request_form form button{
     color:#fff;
     margin:10px;
-    font-size:1.1rem;
+    font-size:.9rem;
 }
 
 /* bookings */
@@ -1698,7 +1701,7 @@ main{
 .partners{
     padding:40px;
     display:flex;
-    /* background:rgba(0, 0, 0, .9); */
+    background:rgba(0, 0, 0, .9);
     justify-content: space-around;
     flex-wrap: wrap;
     padding:20px;
@@ -1757,7 +1760,7 @@ main{
 }
 .partners figcaption{
     text-align:center;
-    color:#222;
+    color:#fff;
 }
 /*call to action
 #callAction{
@@ -2070,6 +2073,9 @@ covid section
     text-align: left;
     padding:10px;
     margin-bottom: 10px;
+}
+.core_services figure img{
+    width:50px;
 }
 .core_services figcaption{
     padding:10px;
@@ -5396,22 +5402,25 @@ header i{
         width:100%;
         padding:5px;
         left:0;
+        overflow-y: scroll;
     }
     #request_form h3{
         font-size:1.2rem;
         text-align: center;
     }
     #requestInfo .request_form form{
-        width:95%;
+        width:98%;
         margin:60px auto;
         /* padding:5px; */
+        overflow-y: scroll;
+
     }
     #request_form form .inputs{
         flex-wrap:wrap;
         margin:20px 0;
     }
     #request_form form .inputs .data{
-        width:90%;
+        width:48%;
         margin:10px auto;
     }
     #requestInfo .request_form form .inputs .data input{
@@ -6098,7 +6107,7 @@ header i{
     }
     .partners{
         flex-wrap:wrap;
-        gap:2rem;
+        gap:.5rem;
     }
     .partners figure{
         width:30%;

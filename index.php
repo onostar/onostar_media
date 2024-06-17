@@ -54,11 +54,12 @@
                 <ul>
                     <li><a href="about.php" title="who we are"><i class="fas fa-bank"></i>About us</a></li>
                     <li>
-                        <a href="#services" title="What we do"><i class="fa-solid fa-desktop-alt"></i>Services</a>
+                        <a href="#features" title="What we do"><i class="fa-solid fa-desktop-alt"></i>Services</a>
                     </li>
                    
-                    <li><a href="#products" title="Our products"><i class="fa-solid fa-server"></i>Products</a></li>
+                    <li><a href="#core_service" title="Our products"><i class="fa-solid fa-server"></i>Products</a></li>
                     <li><a href="articles.php" title="News letter"><i class="fa-solid fa-newspaper"></i>Blog</a></li>
+                    <li><a href="javascript:void(0)" title="Apply for training" class="showRequest"><i class="fa-solid fa-chalkboard-teacher"></i>Admission</a></li>
                     <li id="login"><a href="contact.php" title="Contact us"><i class="fas fa-headset"></i> Get a Quote</a></li>
                     
                 </ul>
@@ -386,7 +387,7 @@
                 
                 <div class="core_services">
                     <figure>
-                        <i class="fas fa-plane-arrival"></i>
+                        <img src="images/pos_icon.jpg" alt="icon">
                         <figcaption>
                             <h3>Dorthpro point-of-sales</h3>
                             <p>A sales & Inventory management system for pharmacies, supermarkets and all retail/wholesale stores. With customized reports such as, expenses, item history, stock levels, expirations, etc. Its design to generate accurate analysis of sales, purchase and inventory</p><br>
@@ -394,7 +395,7 @@
                         </figcaption>
                     </figure>
                     <figure>
-                        <i class="fas fa-ship"></i>
+                        <img src="images/hotel_icon.png" alt="icon">
                         <figcaption>
                             <h3>Hotel Management system</h3>
                             <p>Manage Guest experience seemlessly, by improving check-in and check-out process, guest billing, room managements, etc, manage your bar and restaurant sales, purchase, and inventory management</p><br>
@@ -402,7 +403,7 @@
                         </figcaption>
                     </figure>
                     <figure>
-                        <i class="fas fa-warehouse"></i>
+                        <img src="images/lab_icon.png" alt="icon">
                         <figcaption>
                             <h3>Laboratory Information System</h3>
                             <p>A diagnostic software that manages patient data, investigations, phlebotomy, send patient investigation results and more.</p><br>
@@ -410,7 +411,7 @@
                         </figcaption>
                     </figure>
                     <figure>
-                        <i class="fas fa-train"></i>
+                        <img src="images/laundry_icon.png" alt="icon">
                         <figcaption>
                             <h3>Laundry Management system</h3>
                             <p>A customized system designed to check-in customer clothings, payments, check status of clothings (washed, ironed or delivered). There are also customized financial reports and expense manager embedded.</p><br>
@@ -497,7 +498,7 @@
                     <figcaption>Elgra Pharmacy</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/bclassic.jpg" alt="partners">
+                    <img src="images/bclassic.png" alt="partners">
                     <figcaption>B Classic Pharma</figcaption>
                 </figure>
                 <figure>
@@ -506,10 +507,23 @@
                 </figure>
             </div>
         </section>
-        <!-- online courses -->
+        <!-- call to action -->
+        <section id="investment">
+            <div class="intro">
+                <p>Unlock Your Potential with Expert Training</p>
+                <h2>Launch Your Career in Software Development!</h2>
+                <p>Are you Ready to dive into the dynamic world of software development? Our comprehensive training program is designed to equip you with the skills and knowledge needed to succeed in this rapidly growing field from frontend development to backend and Full Stack development.<br></p>
+                <a href="javascript:void(0)" class="showRequest"><i class="fa-solid fa-certificate"></i> Enroll Now <i class="fa-solid fa-angle-double-right"></i></a>
+            </div>
+            <div class="invest_img">
+                <img src="images/test.webp" alt="Investment">
+
+            </div>
+        </section>
+        <!-- our products -->
         <Section id="plans">
             <h3 class="plans_title">Our Articles</h3>
-            <h2>Check out our latest articles</h2>
+            <h2>Check out our latest blog posts</h2>
             <!-- <p class="first_p">We run all forms of investigations across the following departments</p> -->
             <div class="plans">
                 <?php
@@ -555,18 +569,7 @@
         
         
         <!-- investment -->
-        <!-- <section id="investment">
-            <div class="intro">
-                <p>Where science meets innovation</p>
-                <h2>We excel in providing results you can trust</h2>
-                <p>Diagnostics is a very important part of healthcare, as it can help you enhance your lifestyle and also detect life-threatening health issues early. Let us help keep you aware of your health at all times.<br></p>
-                <a href="javascript:void(0)" class="showRequest"><i class="fa-solid fa-microscope"></i> Book appointment <i class="fa-solid fa-angle-double-right"></i></a>
-            </div>
-            <div class="invest_img">
-                <img src="images/test.webp" alt="Investment">
-
-            </div>
-        </section> -->
+        
         
         <!-- <section id="testimonies">
             <h2>testimonies from our Clients</h2>

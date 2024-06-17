@@ -8,7 +8,7 @@
                         <i class="fas fa-university"></i>
                         <div class="addtext">
                             <!-- <h4>Head office:</h4> -->
-                            <p>Our Head office is located at 10 Upper sakponba road, Opp. Nomayo street, Benin city, Edo state</p>
+                            <p>Our Head office is located at 1 Ogidan street, Off Atican Beachview Estate, Okun-Ajah, Ajah, Lagos state, Nigeria</p>
                         </div>
                     </div>
                    <!--  <div class="address">
@@ -21,23 +21,23 @@
                         <i class="fas fa-tty"></i>
                         <div class="addtext">
                             <h4>Help Lines: </h4>
-                            <p>+2347064204157</p>
+                            <p>+2347068897068</p>
                         </div>
                     </div>
                     <div class="address email">
                         <i class="fas fa-envelope-open-text"></i>
                         <div class="addtext">
                             <h4>Email:</h4>
-                            <p>info@bclassicpharma.com</p>
+                            <p>info@onostarmedia.com, contact@onostarmedia.com</p>
                         </div>
                     </div>
                     <div class="socialMedia">
                         <h3>Follow us on social media</h3>
                         <div class="socialLinks">
-                            <a target="_blank" href="#" title="Follow bclassic pharma on facebook"><i class="fab fa-facebook-square"></i></a>
-                            <a target="_blank" href="#" title="Follow bclassic pharma on twitter"><i class="fab fa-twitter-square"></i></a>
-                            <a target="_blank" href="#" title="Follow bclassic pharma on instagram"><i class="fab fa-instagram-square"></i></a>
-                            <a target="_blank" href="#" title="Follow bclassic pharma on Linkedin"><i class="fab fa-linkedin"></i></a>
+                            <a target="_blank" href="https://facebook.com/onostarmedia" title="Follow Onostar Media on facebook"><i class="fab fa-facebook-square"></i></a>
+                            <a target="_blank" href="https://twitter.com/onostarmedia" title="Follow Onostar Media on twitter"><i class="fab fa-twitter-square"></i></a>
+                            <a target="_blank" href="https://instagram.como/onostar_media" title="Follow Onostar Media on instagram"><i class="fab fa-instagram-square"></i></a>
+                            <a target="_blank" href="https://linked.com/en/onostar_media" title="Follow Onostar media on Linkedin"><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -67,8 +67,8 @@
                             <li><a href="about.php">About us</a></li>
                             <li><a href="#">Career Opportunities</a></li>
                             <li><a href="#"></a></li>
-                            <li><a href="#">Productss</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#core_service">Productss</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                             
                             
                         </div>
@@ -77,7 +77,7 @@
             </section>
         </section>
         <section class="secondaryFooter">
-            <p>&copy;<?php echo date("Y")?> B Classic Pharma. All Rights Reserved.</p>
+            <p>&copy;<?php echo date("Y")?> Onostar Media. All Rights Reserved.</p>
         </section>
     </footer>
 <!-- </div> -->
@@ -156,7 +156,7 @@
     <div id="request_form">
         <h3>Kindly fill in your details</h3>
         <a href="javascript:void(0);" id="close_request"><i class="fas fa-window-close"></i></a>
-        <form action="controller/book_room.php" method="POST">
+        <form action="controller/enroll.php" method="POST">
             
             <div class="inputs">
                 <div class="data">
@@ -183,27 +183,20 @@
                         <option value="Female">Female</option>
                     </select>
                 </div>
+                
                 <div class="data">
-                    <label for="dob">Date of Birth</label>
-                    <input type="date" name="dob" id="dob" placeholder="Your birth date" required>
-                </div> 
-                <div class="data">
-                    <label for="home_address">Home Address</label>
-                    <input type="text" name="home_address" id="home_address" placeholder="Your residential address" required>
-                </div> 
-                <div class="data">
-                    <label for="room_type">Investigation</label>
-                    <select name="room_type" id="room_type">
-                        <option value=""selected>Select Test</option>
-                        <option value="Full blood count">Full blood count</option>
-                        <option value="Urinalysis">Urinalysis</option>
-                        <option value="Xray">Xray</option>
-                        <option value="Pathology">Pathology</option>
+                    <label for="room_type">Course of study</label>
+                    <select name="course" id="course">
+                        <option value=""selected>Select preferred course</option>
+                        <option value="Frontend">Web Design / Frontend development</option>
+                        <option value="Backend">Backend Development</option>
+                        <option value="Fullstack">Fullstack Development</option>
+                        
                     </select>
                 </div>
                 
                 <div class="data">
-                    <button type="submit" id="book" name="book">Book appointment <i class="fas fa-paper-plane"></i></button>
+                    <button type="submit" id="book" name="book">Submit <i class="fas fa-paper-plane"></i></button>
 
                 </div>
             </div>
