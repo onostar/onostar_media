@@ -35,7 +35,7 @@
                    
                     <li><a href="#core_service" title="Our products"><i class="fa-solid fa-server"></i>Products</a></li>
                     <li><a href="articles.php" title="News letter"><i class="fa-solid fa-newspaper"></i>Blog</a></li>
-                    <li><a href="javascript:void(0)" title="Apply for training" class="showRequest"><i class="fa-solid fa-chalkboard-teacher"></i>Admission</a></li>
+                    <li><a href="javascript:void(0)" title="Apply for training" class="showRequest"><i class="fa-solid fa-chalkboard-teacher"></i>Training</a></li>
                     <li id="login"><a href="contact.php" title="Contact us"><i class="fas fa-headset"></i> Get a Quote</a></li>
                     
                 </ul>

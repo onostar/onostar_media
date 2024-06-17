@@ -15,7 +15,7 @@
             <div class="about_banner">
                 <div class="slide">
                     <div class="banner_img">
-                        <img src="images/ban15.jpg" alt="icht">
+                        <img src="images/banner6.jpg" alt="icht">
                     </div>
                     <div class="taglines">
                         <h2>Contact us</h2>
@@ -38,6 +38,7 @@
             
             <div class="intro" id="intro_title">
                 <p>get in touch</p>
+                <p>Whether you are looking to launch a new project or enhance an existing one, Onostar Media is here to collaborate with you. Contact us today to learn more about how we can help you achieve your software development & IT goals.</p>
                 <div class="add_info">
                     <i class="fas fa-street-view"></i>
                     <p>Our Head office is located at 1 Ogidan street, Off Atican Beachview Estate, Okun-ajah, Ajah, Lagos state, Nigeria</p>

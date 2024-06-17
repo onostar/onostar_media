@@ -1159,9 +1159,9 @@ main{
 }
 .about_banner .banner_img{
     position:absolute;
-    width:70%;
+    width:80%;
     height:70%;
-    left:25%;
+    left:15%;
     top:0;
     /* border-radius:10px; */
     box-shadow: 2px 2px 2px rgb(122, 120, 120);
@@ -1704,7 +1704,6 @@ main{
     background:rgba(0, 0, 0, .9);
     justify-content: space-around;
     flex-wrap: wrap;
-    padding:20px;
     gap:1rem;
 }
 .partners figure{
@@ -1904,7 +1903,7 @@ covid section
 /* investments */
 #investment{
     width:80%;
-    margin:50px auto;
+    margin:50px auto 0;
     display:flex;
     flex-wrap:wrap;
     gap:1rem;
@@ -2925,11 +2924,16 @@ color: rgb(231, 226, 226);
     justify-content: space-between;
 }
 #invest_link{
-    display:block;
+    display:inline-block;
     background:var(--primaryColor);
     color:#fff;
-    padding:15px;
-    width:auto;margin:10px auto;
+    padding:10px;
+    font-size:.9rem;
+    width:auto;
+    margin:10px auto;
+    border:2px solid #fff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px #222;
 }
 .story a{
     display:block;
@@ -2949,6 +2953,7 @@ color: rgb(231, 226, 226);
     left:0;
     height:300px;
     overflow:hidden;
+
 }
 
 .more_notes .more_slide{
@@ -5673,11 +5678,13 @@ header i{
         position:relative;
         min-height:200px;
     }
+    
     #hero .hero_notes .note{
         background:#fff;
         border-radius:5px;
-        width:45%;
-        height:100px;
+        width:48%;
+        height:120px;
+
     }
     #hero .hero_notes .note h3{
         font-size:1.8rem;

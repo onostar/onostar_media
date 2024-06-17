@@ -59,7 +59,7 @@
                    
                     <li><a href="#core_service" title="Our products"><i class="fa-solid fa-server"></i>Products</a></li>
                     <li><a href="articles.php" title="News letter"><i class="fa-solid fa-newspaper"></i>Blog</a></li>
-                    <li><a href="javascript:void(0)" title="Apply for training" class="showRequest"><i class="fa-solid fa-chalkboard-teacher"></i>Admission</a></li>
+                    <li><a href="javascript:void(0)" title="Apply for training" class="showRequest"><i class="fa-solid fa-chalkboard-teacher"></i>Training</a></li>
                     <li id="login"><a href="contact.php" title="Contact us"><i class="fas fa-headset"></i> Get a Quote</a></li>
                     
                 </ul>
@@ -211,10 +211,10 @@
         <section id="about_us">
             <div class="about_banner">
                 <div class="banner_img">
-                    <img src="images/prescription.jpg" alt="banner">
+                    <img src="images/fotoban.jpg" alt="banner">
                 </div>
                 <div class="clients">
-                    <img src="images/pharm_excellence.jpg" alt="banner">
+                    <img src="images/development.jpeg" alt="banner">
 
                 </div>
             </div>
@@ -224,11 +224,9 @@
                 <div class="notes">
                     <div class="notes_1">
                         <p>We are a World class Software development company poised to revolutionise the face of ICT in Nigeria and Africa at large by introducing innovative digital solutions that will take businesses to the next level.</p><br>
-                      <p>At Onostar Media, we pride ourselves on being a leading software development company that specializes in creating customized solutions for a wide range of businesses. Our expertise spans across various industries, including supermarkets, retail stores, pharmacies, Hospitals & Diagnostics, hotels, bars, restaurants, and laundry services.<br>We understand that every business is different, which is why we offer tailor-made solutions that are designed to meet a business specific requirements. Our goal is to help businesses improve efficiency, increase productivity, and ultimately drive growth for the business.<br><br>
-                        <!-- Our team provides invaluable support at all levels to help customers reduce costs and risk by making informed choices at the earliest possible stage.<br>
-                        <p>At <strong>Bob & Sil</strong>, our business is people-centric and we believe and adhere to our guiding principle of building strong human resource capacity to achieve and sustain our business goals and objectives. --></p>
-                        <!-- <p style="text-align: justify;">Our current staff strength of almost a hundred (100) actively engaged personnel.</p>
-                        <p style="text-align: justify;">A greater percentage of our team is made up of qualified persons from within our business operating communities. --></p>
+                        <p>At Onostar Media, we are passionate about harnessing the power of technology to create innovative solutions that transform businesses and elevate user experiences. Established in 2019, we have grown into a leading provider of bespoke software development services tailored to meet the diverse needs of our global clientele.<br>
+                      Our mission is to deliver cutting-edge software solutions that not only meet but exceed our clients' expectations. We strive to empower businesses of all sizes with robust, scalable, and secure software applications that drive efficiency, productivity, and growth.<br>
+                       </p>
                         <a href="about.php"class="about_btn">Read more <i class="fas fa-paper-plane"></i></a>
                     </div>
                     <!-- <div class="notes_2">
@@ -289,28 +287,28 @@
                 </div>
             </div>
             <div class="feature_img">
-                <img src="images/DOC-1.jpg" alt="Our services">
+                <img src="images/software.png" alt="Our services">
             </div>
         </section>
         <!-- hero -->
         <section id="hero">
             <div class="hero_image">
-                <img src="images/banner3.webp" alt="hero image">
+                <img src="images/hero.jpg" alt="hero image">
             </div> 
             <div class="hero_notes">
                 <div class="note">
-                    <i class="fas fa-user-friends"></i>
+                    <i class="fas fa-briefcase"></i>
                     <h3>100+</h3>
                     <p>Projects Completed</p>
                 </div>
                 <div class="note">
-                <i class="fas fa-user-doctor"></i>
-                    <h3>22</h3>
+                <i class="fas fa-user-tie"></i>
+                    <h3>12</h3>
                     <p>IT Specialists</p>
                 </div>
                 <div class="note">
-                    <i class="fas fa-hospital"></i>
-                    <h3>12</h3>
+                    <i class="fab fa-uncharted"></i>
+                    <h3>6</h3>
                     <p>Smart Solutions</p>
                 </div>
                 <div class="note">
@@ -327,13 +325,41 @@
             <h2>Quality work at a perfect time</h2>
             <div class="amenities">
                 <div class="offer">
-                    <i class="fas fa-tags"></i></i>
+                    <i class="fas fa-users-gear"></i></i>
                     <div class="offer_info">
-                        <h4>Tailor-made solutions</h4>
-                        <p>Our products and services are customized to suite your business or organizational flow. We design to suite you, just the way you want it.</p>
+                        <h4>Client-Centric Approach</h4>
+                        <p>We prioritize understanding our clients' unique challenges and goals to deliver customized solutions that address their specific needs.</p>
+                    </div>
+                </div>
+                <div class="offer">
+                    <i class="fas fa-brain"></i></i>
+                    <div class="offer_info">
+                        <h4>Innovation</h4>
+                        <p>We embrace creativity and innovation to develop solutions that are at the forefront of technological advancements.</p>
+                    </div>
+                </div>
+                <div class="offer">
+                    <i class="fas fa-user-tie"></i></i>
+                    <div class="offer_info">
+                        <h4>Expertise</h4>
+                        <p>Our team comprises talented software engineers and developers with deep expertise across various domains and technologies.</p>
                     </div>
                 </div>
                 
+                <div class="offer">
+                    <i class="fas fa-clipboard-check"></i></i>
+                    <div class="offer_info">
+                        <h4>Quality Assurance</h4>
+                        <p>Rigorous testing and quality assurance processes ensure that our solutions are reliable, efficient, and scalable.</p>
+                    </div>
+                </div>
+                <div class="offer">
+                    <i class="fas fa-chart-line"></i></i>
+                    <div class="offer_info">
+                        <h4>Continuous Improvement</h4>
+                        <p>We are committed to continuous learning and improvement, staying updated with the latest trends and technologies in software development.</p>
+                    </div>
+                </div>
                 <div class="offer">
                     <i class="fas fa-headset"></i></i>
                     <div class="offer_info">
@@ -341,34 +367,6 @@
                         <p>We offer round the clock support to all of our clients, both onsite and online, and we are very prompt to response.</p>
                     </div>
                 </div>
-                <div class="offer">
-                    <i class="fas fa-users-gear"></i></i>
-                    <div class="offer_info">
-                        <h4>Experienced Team</h4>
-                        <p>We have a team of skilled developers and engineers dedicated to crafting innovative software solutions that cater to your unique needs.</p>
-                    </div>
-                </div>
-                <!-- <div class="offer">
-                    <i class="fas fa-clipboard"></i></i>
-                    <div class="offer_info">
-                        <h4>Quality Products</h4>
-                        <p>All our product are NAFDAC approved and far beyond the expiration dates</p>
-                    </div>
-                </div>
-                <div class="offer">
-                    <i class="fas fa-laptop-house"></i></i>
-                    <div class="offer_info">
-                        <h4>Free Teleconsultations</h4>
-                        <p>Consult with a range of experienced and licensed doctors, pharmacists and other healthcare expert.</p>
-                    </div>
-                </div>
-                <div class="offer">
-                    <i class="fas fa-map-marker"></i></i>
-                    <div class="offer_info">
-                        <h4>Convenience</h4>
-                        <p>Our offices are serene and very comfortable for our clients</p>
-                    </div>
-                </div> -->
             </div>
         </section>
        <!-- products -->
@@ -505,6 +503,10 @@
                     <img src="images/icon1.png" alt="partners">
                     <figcaption>Maxime Pharmacy</figcaption>
                 </figure>
+                <figure>
+                    <img src="images/temix.jpg" alt="partners">
+                    <figcaption>Temix empire</figcaption>
+                </figure>
             </div>
         </section>
         <!-- call to action -->
@@ -516,7 +518,7 @@
                 <a href="javascript:void(0)" class="showRequest"><i class="fa-solid fa-certificate"></i> Enroll Now <i class="fa-solid fa-angle-double-right"></i></a>
             </div>
             <div class="invest_img">
-                <img src="images/test.webp" alt="Investment">
+                <img src="images/coding.jpg" alt="Training">
 
             </div>
         </section>

@@ -15,7 +15,7 @@
             <div class="about_banner">
                 <div class="slide">
                     <div class="banner_img">
-                        <img src="images/ban13.jpg" alt="about us">
+                        <img src="images/banner5.jpg" alt="about us">
                     </div>
                     <div class="taglines">
                         <h2>About us</h2>
@@ -39,64 +39,65 @@
             <hr>
             <h3>Our Existence</h3>
             <div class="story">
-                <p id="first_story">B Classic Pharma started out as a Retail Pharmacy in November 2015, providing pharmaceutical care services in Benin city. In 2024, we branched into Pharmaceutical Marketing, with the introduction of novel brands into the Nigerian pharmaceutical industry beginning from Lagos. We are a pharmaceutical company poised to revolutionise the face of healthcare in Nigeria and Africa at large by introducing innovative solutions to healthcare challenges.<br>
-With Head office in Benin city, we will spread our influence throughout Nigeria one step at a time.
+                <p id="first_story">At Onostar Media, we pride ourselves on being a leading software development company that specializes in creating customized solutions for a wide range of businesses. 
+                We serve a diverse portfolio of clients ranging from startups to enterprises across industries such as manufacturing, supermarkets & retail, e-commerce, pharmacies, Hospitals & Diagnostics, hotels, bars, restaurants, lEducation, etc.<br><br>
+                Established in 2019, we have grown into a leading provider of bespoke software development services tailored to meet the diverse needs of our global clientele. Our commitment to excellence and client satisfaction has earned us long-term partnerships and accolades within the industry.
 <br><br>
  
- Our GOAL is to improve the health and general wellbeing of the people we serve by providing safe, innovative and highly effective solutions to healthcare needs..<br><br> 
+Our team of skilled developers works tirelessly to design and implement software that streamlines processes, increases efficiency, and maximizes productivity. We understand that every business is different, which is why we take the time to listen to our clients and tailor our solutions to their specific requirements.
+<br><br>
+Whether you are a small retail store looking to improve your sales tracking or a large hotel chain in need of a comprehensive management system, we have the knowledge and experience to deliver results. Our commitment to excellence and customer satisfaction sets us apart from the competition, and we take pride in the positive impact our software solutions have on our clients' businesses.<br><br> 
+So if you are looking for a software development company that is dedicated to providing top-notch, customized solutions for your business, look no further. Contact us today to learn more about how we can help take your company to the next level.<br><br>
+Onostar media also offers specialized ICT services such as computer networking, CCTV installations and mentainance, training on software development and security surveillance systems, as well general ICT consultation.
  
- We promote the awareness and encourage the use of innovative and highly effective pharmaceutical brands among healthcare professionals including Doctors, Pharmacists and the general public.<br><br>
- 
-Our team is made up ofqualified pharmacists with many years of expereince, Nurses, Medical laboratory scientist, Marketing Executive, Human Resource Manager, Customer care manager, Receptionists and Cleaners.
- <br><br>
-Our team is driven by winning spirit, striving to be an indigenous leader and unwilling to follow or be second best and our name must be recognized to be synonymous with full spectrum –quality pharmaceutical services.
- <br><br>
-Indeed we are distinctively exceptional and remains true partners in  patient care.
-
- 
-                <br><br>
-                <img src="images/ban20.jpg" alt="Admin building">
+                <img src="images/banner.jpg" alt="banner">
                 <br>
-                
-                We currently have a staff strength of almost fifty (50) actively engaged personnel.
+                    
                     <a id="invest_link" href="contact.php" title="contact us">Contact us <i class="fas fa-paper-plane"></i></a>
                 </p>
-                <div class="more_notes">
-                    <img src="images/lab.jpeg" alt="about">
+                <div class="more_notes" style="height:auto">
 
-                    <h3>OUR CORE VALUES</h3>
-                    <P><strong>People:</strong> We believe in people, for in every person lies the potential which when harnessed can transform  generations. So, we create the enabling environment for ndividuals to empower themselves to ive their best lives.<br><br>
-                    <strong>Passion:</strong> if anything is worth doing, it’s worth doing well and this fuels our zeal and commitment to surpass the expectations of our stakeholders without compromising standard and ethics
+                    <h3>What Sets Us Apart</h3>
+                    <P>
+                        <ul>
+                            <li><strong>Expertise:</strong> Our team comprises talented software engineers and developers with deep expertise across various domains and technologies.</li><br>
+                            <li><strong>Innovation:</strong> We embrace creativity and innovation to develop solutions that are at the forefront of technological advancements.</li><br>
+                            <li><strong>Client-centric Approach:</strong> We prioritize understanding our clients' unique challenges and goals to deliver customized solutions that address their specific needs.</li><br>
+                            <li><strong>Quality Assurance:</strong> Rigorous testing and quality assurance processes ensure that our solutions are reliable, efficient, and scalable.</li><br>
+                            <li><strong>Continuous Improvement:</strong> We are committed to continuous learning and improvement, staying updated with the latest trends and technologies in software development.</li><br>
+                        </ul>
 
                     </p>
+                    <img src="images/banner4.jpg" alt="about">
+
                 </div>
             </div>
         </section>
          <!-- hero -->
          <section id="hero">
             <div class="hero_image">
-                <img src="images/ban13.jpg" alt="hero image">
+                <img src="images/hero.jpg" alt="hero image">
             </div> 
             <div class="hero_notes">
                 <div class="note">
-                    <i class="fas fa-user-friends"></i>
-                    <h3>10+</h3>
-                    <p>Reps across the nation</p>
+                    <i class="fas fa-briefcase"></i>
+                    <h3>100+</h3>
+                    <p>Projects Completed</p>
                 </div>
                 <div class="note">
-                <i class="fas fa-user-doctor"></i>
-                    <h3>10+</h3>
-                    <p>Qualified Pharmacists</p>
+                <i class="fas fa-user-tie"></i>
+                    <h3>22</h3>
+                    <p>IT Specialists</p>
                 </div>
                 <div class="note">
-                    <i class="fas fa-hospital"></i>
-                    <h3>2</h3>
-                    <p>Locations</p>
+                    <i class="fab fa-uncharted"></i>
+                    <h3>6</h3>
+                    <p>Smart Solutions</p>
                 </div>
                 <div class="note">
                     <i class="fas fa-users"></i>
-                    <h3>1000+</h3>
-                    <p>Customers</p>
+                    <h3>100+</h3>
+                    <p>Satsified Clients</p>
                 </div>
             </div>
         </section>
@@ -130,61 +131,7 @@ Indeed we are distinctively exceptional and remains true partners in  patient ca
                 </ul>
             </div>
         </section> -->
-        <section id="team">
-            <h2>The Amazing team behind our Establishment</h2>
-            <hr>
-            <p>We have a qualified team of Scientists, Pharmacist, health technicians, and top professionals in the health sector.</p>
-            <div class="team">
-                <figure>
-                    <img src="images/d1.jpg" alt="management photo">
-                    <figcaption>
-                        <h3>DR (PHARM) Nelson Akogo (B.Pharm, PharmD, MPSN)<span>MD, CEO</span></h3>
-                        <div class="socials">
-                            <i class="fab fa-facebook-square" style="color:#3b5998"></i>
-                            <i class="fab fa-twitter-square" style="color:#00acee"></i>
-                            <i class="fab fa-linkedin" style="color:#0072b1"></i>
-                        </div>
-                        
-                    </figcaption>
-                </figure>
-                <!-- <figure>
-                <img src="images/d1.jpg" alt="management photo">
-                    <figcaption>
-                        <h3>Mr. Godwin<span>Chief Scientist</span></h3>
-                        <div class="socials">
-                            <i class="fab fa-facebook-square" style="color:#3b5998"></i>
-                            <i class="fab fa-twitter-square" style="color:#00acee"></i>
-                            <i class="fab fa-linkedin" style="color:#0072b1"></i>
-                        </div>
-                    </figcaption>
-                </figure>
-                <figure>
-                <img src="images/d2.jpg" alt="management photo">
-                    <figcaption>
-                        <h3>John Tsimigan<span>Scientis</span></h3>
-                        <div class="socials">
-                            <i class="fab fa-facebook-square" style="color:#3b5998"></i>
-                            <i class="fab fa-twitter-square" style="color:#00acee"></i>
-                            <i class="fab fa-linkedin" style="color:#0072b1"></i>
-                        </div>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="images/d4.jpg" alt="management photo">
-                    <figcaption>
-                        <h3>John Tsimigan<span>Scientist</span></h3>
-                        <div class="socials">
-                            <i class="fab fa-facebook-square" style="color:#3b5998"></i>
-                            <i class="fab fa-twitter-square" style="color:#00acee"></i>
-                            <i class="fab fa-linkedin" style="color:#0072b1"></i>
-                        </div>
-                    </figcaption>
-                </figure> -->
-            </div>
-            <!-- <div class="more_team">
-                <a href="about.html#team" title="View team members">View more <i class="fas fa-angle-double-right"></i></a>
-            </div> -->
-        </section>
+        
     </main>
     <?php include "footer.php"?>
 </body>
