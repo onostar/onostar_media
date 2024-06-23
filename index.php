@@ -530,7 +530,7 @@
             <div class="plans">
                 <?php
                     // get only four products
-                    $get_products = $connectdb->prepare("SELECT SUBSTRING_INDEX (details, ' ', 15) AS details, title, article_id, photo, post_date FROM articles ORDER BY post_date DESC LIMIT 4");
+                    $get_products = $connectdb->prepare("SELECT SUBSTRING_INDEX (details, ' ', 12) AS details, title, article_id, photo, post_date FROM articles ORDER BY post_date DESC LIMIT 4");
                     $get_products->execute();
                     if($get_products->rowCount() > 0){
                         $rows = $get_products->fetchAll();
@@ -547,7 +547,7 @@
                         <figcaption>
                             <h3><?php echo strtoupper($row->title)?></h3>
                             <p class="course_details">
-                               <?php echo $row->details?>
+                               <?php echo $row->details?>...
                             </p>
                             <div class="author">
                                 <img src="images/icon.png" alt="logo">

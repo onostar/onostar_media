@@ -76,7 +76,48 @@
                 
             </div>
         </section>
-        
+        <Section id="plans">
+            <h2>More articles</h2>
+            <!-- <p class="first_p">We supply various forms of products from different suppliers</p> -->
+            <div class="plans">
+                <?php
+                    // get only four products
+                    $get_products = $connectdb->prepare("SELECT SUBSTRING_INDEX (details, ' ', 12) AS details, title, article_id, photo, post_date FROM articles WHERE article_id != :article_id ORDER BY post_date DESC LIMIT 4");
+                    $get_products->bindValue('article_id', $item);
+                    $get_products->execute();
+                    if($get_products->rowCount() > 0){
+                        $rows = $get_products->fetchAll();
+                        foreach($rows as $row):
+                ?>
+                <div class="plan_form" id="plan1">
+                    <figure>
+                        <div class="project_img">
+                            <div class="pro_img">
+                                <img src="<?php echo 'admin/photos/'.$row->photo?>" alt="<?php echo $row->title?>">
+                            </div>
+                            <a href="article_info.php?id=<?php echo $row->article_id?>"> <i class="fas fa-eye"></i></a>
+                        </div>
+                        <figcaption>
+                            <h3><?php echo strtoupper($row->title)?></h3>
+                            <p class="course_details">
+                               <?php echo $row->details?>...
+                            </p>
+                            <div class="author">
+                                <img src="images/icon.png" alt="logo">
+                                <p style="color:var(--moreColor);" class="author_name"><?php echo date("jS M, Y", strtotime($row->post_date))?></p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                
+                <?php endforeach; }else{?>
+                <p style="color:var(--moreColor); text-align:center">No articles</p>
+                <?php }?>
+                
+            </div>
+           
+
+        </Section>
     </main>
     <?php include "footer.php"?>
 <!-- </div> -->
