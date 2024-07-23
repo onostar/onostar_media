@@ -28,7 +28,7 @@
                         <i class="fas fa-envelope-open-text"></i>
                         <div class="addtext">
                             <h4>Email:</h4>
-                            <p>info@onostarmedia.com, contact@onostarmedia.com</p>
+                            <p>info@onostarmedia.dorthpro.com, contact@onostarmedia.dorthpro.com</p>
                         </div>
                     </div>
                     <div class="socialMedia">
@@ -36,7 +36,7 @@
                         <div class="socialLinks">
                             <a target="_blank" href="https://facebook.com/onostarmedia" title="Follow Onostar Media on facebook"><i class="fab fa-facebook-square"></i></a>
                             <a target="_blank" href="https://twitter.com/onostarmedia" title="Follow Onostar Media on twitter"><i class="fab fa-twitter-square"></i></a>
-                            <a target="_blank" href="https://instagram.como/onostar_media" title="Follow Onostar Media on instagram"><i class="fab fa-instagram-square"></i></a>
+                            <a target="_blank" href="https://instagram.com/onostarmedia" title="Follow Onostar Media on instagram"><i class="fab fa-instagram-square"></i></a>
                             <a target="_blank" href="https://linked.com/en/onostar_media" title="Follow Onostar media on Linkedin"><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>

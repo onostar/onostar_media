@@ -4,7 +4,7 @@
                 <li><a href="https://facebook.com/onostarmedia"><i class="fab fa-facebook"></i></a></li>
                 <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
                 <li><a href="https://twiter.com/onostar_media"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://instagram.com/onostar_media"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://instagram.com/onostarmedia"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
         <div class="contact_phone">

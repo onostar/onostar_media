@@ -3027,6 +3027,11 @@ color: rgb(231, 226, 226);
     color:#fff;
     padding:10px;
 }
+.more_details textarea{
+    font-family: "Poppins";
+    font-size:.8rem;
+    text-align: justify;
+}
 .order a{
     background:var(--moreColor);
     color:#fff;
@@ -5240,12 +5245,12 @@ header i{
         border-bottom:2px solid #c4c4c4;
     }
     .main_header h1{
-        width:40vw;
+        width:45vw;
         margin-left:10px;
         padding:0;
     }
     .new_header h1{
-        width:40vw;
+        width:45vw;
         padding:0;
         margin-left:20px;
     }
@@ -6263,7 +6268,7 @@ header i{
         width:100%;
     }
     #core_service{
-        min-height:1600px;
+        min-height:2000px;
         width:100%;
         margin:0!important;
     }
@@ -6356,7 +6361,7 @@ header i{
     }
     #quote_request{
         width:100%;
-        margin:20px 0;
+        margin:80px 0 0;
     }
     #quote_request p{
         width:100%;
