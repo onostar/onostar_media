@@ -389,7 +389,7 @@
                         <figcaption>
                             <h3>Dorthpro point-of-sales</h3>
                             <p>A sales & Inventory management system for pharmacies, supermarkets and all retail/wholesale stores. With customized reports such as, expenses, item history, stock levels, expirations, etc. Its design to generate accurate analysis of sales, purchase and inventory</p><br>
-                            <a href="https://demo.dorthpro.com" target="_blank">View Demo <i class="fas fa-paper-plane"></i></a>
+                            <a href="https://dems.dorthpro.com" target="_blank">View Demo <i class="fas fa-paper-plane"></i></a>
                         </figcaption>
                     </figure>
                     <figure>
@@ -400,19 +400,35 @@
                             <a href="https://wa.me/+2347068897068" title="request a demo">Request Demo <i class="fas fa-paper-plane"></i></a>
                         </figcaption>
                     </figure>
-                    <figure>
+                    <!-- <figure>
                         <img src="images/lab_icon.png" alt="icon">
                         <figcaption>
                             <h3>Laboratory Information System</h3>
                             <p>A diagnostic software that manages patient data, investigations, phlebotomy, send patient investigation results and more.</p><br>
                             <a href="https://wa.me/+2347068897068" title="request a demo">Request Demo <i class="fas fa-paper-plane"></i></a>
                         </figcaption>
-                    </figure>
+                    </figure> -->
                     <figure>
+                        <img src="images/lab_icon.png" alt="icon">
+                        <figcaption>
+                            <h3>Hospital Management System</h3>
+                            <p>We offer state of the art hospital management system customized to suite our clients. From Front desk to inpatient/OPD, doctors consultation, Laboratory information service, Billing and cash, Private and Corporate patients, etc. We got it all covered</p><br>
+                            <a href="https://wa.me/+2347068897068" title="request a demo">Request Demo <i class="fas fa-paper-plane"></i></a>
+                        </figcaption>
+                    </figure>
+                    <!-- <figure>
                         <img src="images/laundry_icon.png" alt="icon">
                         <figcaption>
                             <h3>Laundry Management system</h3>
                             <p>A customized system designed to check-in customer clothings, payments, check status of clothings (washed, ironed or delivered). There are also customized financial reports and expense manager embedded.</p><br>
+                            <a href="https://wa.me/+2347068897068" title="request a demo">Request Demo <i class="fas fa-paper-plane"></i></a>
+                        </figcaption>
+                    </figure> -->
+                    <figure>
+                        <img src="images/accounting.jpg" alt="icon">
+                        <figcaption>
+                            <h3>Dorthpro For Accounting</h3>
+                            <p>A complete accounting system with invoicing and asset management/depreciation embedded. Customized with Essential accounting reports which include Income statements, Cash flows, Statement of Financial Positions, Trial Balance, etc.</p><br>
                             <a href="https://wa.me/+2347068897068" title="request a demo">Request Demo <i class="fas fa-paper-plane"></i></a>
                         </figcaption>
                     </figure>
@@ -465,7 +481,19 @@
                 </figure>
                 <figure>
                     <img src="images/icon1.png" alt="partners">
-                    <figcaption>1FCA Divine Ventures</figcaption>
+                    <figcaption>Tonnac Recycling Technologies</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/cavaz.jpg" alt="partners">
+                    <figcaption>Cavaz Chop House </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/jevi.png" alt="partners">
+                    <figcaption>Jevi Austin Int. Co </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/icon1.png" alt="partners">
+                    <figcaption>J & B Care Global</figcaption>
                 </figure>
                 <figure>
                     <img src="images/steel_coven.jpg" alt="partners">
@@ -478,6 +506,10 @@
                 <figure>
                     <img src="images/real_care.png" alt="partners">
                     <figcaption>Real care Pharmacy</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/icon1.png" alt="partners">
+                    <figcaption>D-Qubed Eatery</figcaption>
                 </figure>
                 <figure>
                     <img src="images/goodies.jpg" alt="partners">
@@ -501,7 +533,15 @@
                 </figure>
                 <figure>
                     <img src="images/icon1.png" alt="partners">
+                    <figcaption>Godwyn Market Place</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/icon1.png" alt="partners">
                     <figcaption>Maxime Pharmacy</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/icon1.png" alt="partners">
+                    <figcaption>1FCA Divine Ventures</figcaption>
                 </figure>
                 <figure>
                     <img src="images/temix.jpg" alt="partners">
