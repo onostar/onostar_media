@@ -37,7 +37,7 @@
                             <a target="_blank" href="https://facebook.com/onostarmedia" title="Follow Onostar Media on facebook"><i class="fab fa-facebook-square"></i></a>
                             <a target="_blank" href="https://twitter.com/onostarmedia" title="Follow Onostar Media on twitter"><i class="fab fa-twitter-square"></i></a>
                             <a target="_blank" href="https://instagram.com/onostarmedia" title="Follow Onostar Media on instagram"><i class="fab fa-instagram-square"></i></a>
-                            <a target="_blank" href="https://linked.com/en/onostar_media" title="Follow Onostar media on Linkedin"><i class="fab fa-linkedin"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/company/onostar-media" title="Follow Onostar media on Linkedin"><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>

@@ -22,7 +22,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="<?php echo $row->title?>">
     <meta name="keyword" content="Software, automation, business software, point of sales, inventory management, accounting software, production software, security surveillance, CCTV" />
-	<meta name="author" content="Kelly ikpefua"/>
+	<meta name="author" content="Onostar Media"/>
 	<meta name="og:url" property="og:url" content="https://">
     <meta name="og:type "property="og:type" content="website">
     <meta name="og:title" property="og:title" content="" />
