@@ -3466,8 +3466,10 @@ function addCustomer(){
      let customer = document.getElementById("customer").value;
      let phone_number = document.getElementById("phone_number").value;
      let address = document.getElementById("address").value;
-     let customer_store = document.getElementById("customer_store").value;
+     // let customer_store = document.getElementById("customer_store").value;
      let email = document.getElementById("email").value;
+     let product = document.getElementById("product").value;
+     let reg_date = document.getElementById("reg_date").value;
      if(customer.length == 0 || customer.replace(/^\s+|\s+$/g, "").length == 0){
           alert("Please enter customer name!");
           $("#customer").focus();
@@ -3476,23 +3478,27 @@ function addCustomer(){
           alert("Please enter customer phone number").focus();
           $("#phone_number").focus();
           return;
-     }else if(customer_store.length == 0 || customer_store.replace(/^\s+|\s+$/g, "").length == 0){
+    /*  }else if(customer_store.length == 0 || customer_store.replace(/^\s+|\s+$/g, "").length == 0){
           alert("Please select store").focus();
           $("#customer_store").focus();
-          return;
-     /* }else if(address.length == 0 || address.replace(/^\s+|\s+$/g, "").length == 0){
+          return; */
+     }else if(address.length == 0 || address.replace(/^\s+|\s+$/g, "").length == 0){
           alert("Please input customer address");
           $("#address").focus();
           return;
-     }else if(email.length == 0 || email.replace(/^\s+|\s+$/g, "").length == 0){
-          alert("Please enter customer email address");
-          $("#email").focus();
-          return; */
+     }else if(product.length == 0 || product.replace(/^\s+|\s+$/g, "").length == 0){
+          alert("Please input product");
+          $("#product").focus();
+          return;
+     }else if(reg_date.length == 0 || reg_date.replace(/^\s+|\s+$/g, "").length == 0){
+          alert("Please select date onboarded");
+          $("#reg_date").focus();
+          return;
      }else{
           $.ajax({
                type : "POST",
                url : "../controller/add_customer.php",
-               data : {customer:customer, phone_number:phone_number, email:email, address:address, customer_store:customer_store},
+               data : {customer:customer, phone_number:phone_number, email:email, address:address, reg_date:reg_date, product:product},
                success : function(response){
                $(".info").html(response);
                }

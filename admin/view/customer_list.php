@@ -6,7 +6,7 @@
 
 ?>
     <div class="info"></div>
-<div class="displays allResults" id="staff_list" style="width:80%!important;margin:50px!important">
+<div class="displays allResults" id="staff_list" style="width:95%!important;margin:50px!important">
     <h2>Customer list</h2>
     <hr>
     <div class="search">
@@ -17,10 +17,11 @@
             <tr style="background:var(--moreColor)">
                 <td>S/N</td>
                 <td>Customer name</td>
+                <td>Unique ID</td>
                 <td>Phone number</td>
                 <td>Address</td>
                 <!-- <td>Email</td> -->
-                <td>Store</td>
+                <td>Product</td>
                 <td>Balance</td>
                 <td>Date reg</td>
             </tr>
@@ -36,19 +37,18 @@
             <tr>
                 <td style="text-align:center; color:red;"><?php echo $n?></td>
                 <td><?php echo $detail->customer?></td>
+                <td><?php echo $detail->reg_number?></td>
                 <td><?php echo $detail->phone_numbers?></td>
                 <td><?php echo $detail->customer_address?></td>
                 <!-- <td><?php echo $detail->customer_email?></td> -->
                 <td>
                     <?php
-                        $get_store = new selects();
-                        $rows = $get_store->fetch_details_group('stores', 'store', 'store_id', $detail->store);
-                        echo $rows->store;
+                        echo $detail->product;
                     ?>
                 </td>
                 <td style="color:green"><?php echo "₦".number_format($detail->wallet_balance, 2);?>
                 </td>
-                <td><?php echo date("d-m-Y", strtotime($detail->reg_date))?></td>
+                <td><?php echo date("d-M-Y", strtotime($detail->reg_date))?></td>
                 
                 
             </tr>

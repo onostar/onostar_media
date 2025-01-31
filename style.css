@@ -2299,6 +2299,7 @@ covid section
 .plans figcaption h3{
     text-transform: uppercase;
     color: #252424!important;
+    font-size:1rem;
     font-weight: normal!important;
     text-align: left!important;
 }
@@ -5247,22 +5248,22 @@ header i{
         border-bottom:2px solid #c4c4c4;
     }
     .main_header h1{
-        width:45vw;
+        width:50vw;
         margin-left:10px;
         padding:0;
     }
     .new_header h1{
-        width:45vw;
+        width:50vw;
         padding:0;
         margin-left:20px;
     }
     .main_header h1 img{
-        width:90%;
+        width:100%;
         margin:10px;
         height:10vh;
     }
     .new_header h1 img{
-        width:90%;
+        width:100%;
         margin:5px;
     }
     #navigation{

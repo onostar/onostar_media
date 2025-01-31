@@ -4,14 +4,25 @@
     $phone = htmlspecialchars(stripslashes($_POST['phone_number']));
     $address = ucwords(htmlspecialchars(stripslashes(($_POST['address']))));
     $email = htmlspecialchars(stripslashes(($_POST['email'])));
-    $store = htmlspecialchars(stripslashes(($_POST['customer_store'])));
-
+    $product = ucwords(htmlspecialchars(stripslashes($_POST['product'])));
+    $date = ucwords(htmlspecialchars(stripslashes($_POST['reg_date'])));
+    // $store = htmlspecialchars(stripslashes(($_POST['customer_store'])));
+    $todays_date = date("Ym");
+        $ran_num ="";
+        for($i = 0; $i < 4; $i++){
+            $random_num = random_int(0, 9);
+            $ran_num .= $random_num;
+        }
+        $customer_num = $todays_date.$ran_num;
     $data = array(
         'customer' => $customer,
         'phone_numbers' => $phone,
         'customer_email' => $email,
         'customer_address' => $address,
-        'store' => $store
+        // 'store' => $store,
+        'product' => $product,
+        'reg_date' => $date,
+        'reg_number' => $customer_num
     );
     // instantiate class
     include "../classes/dbh.php";

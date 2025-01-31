@@ -7,7 +7,7 @@
     <div class="add_user_form" style="width:70%">
         <h3>Add customers</h3>
         <!-- <form method="POST" id="addUserForm"> -->
-        <form class="addUserForm">
+        <section class="addUserForm">
             <div class="inputs" style="gap:.5rem;">
                 <div class="data" style="width:30%">
                     <label for="customer">Customer Name</label>
@@ -22,17 +22,22 @@
                     <input type="text" name="address" id="address" required>
                 </div>
                 <div class="data" style="width:30%">
+                    <label for="reg_date">Date Onboarded</label>
+                    <input type="date" name="reg_date" id="reg_date">
+                </div>
+                <div class="data" style="width:30%">
+                    <label for="product">Product/Service</label>
+                    <input type="text" name="product" id="product">
+                </div>
+                <div class="data" style="width:30%">
                     <label for="email">Email address</label>
                     <input type="text" name="email" id="email" placeholder="example@mail.com" required>
                 </div>
-                <div class="data" style="width:30%">
-                    <!-- <label for="customer_store">Select store</label> -->
-                    <input type="hidden" name="customer_store" id="customer_store" value='1'>
-                </div>
+                
                 <div class="data" style="width:30%">
                     <button type="submit" id="add_customer" name="add_customer" onclick="addCustomer()">Add Customer <i class="fas fa-plus"></i></button>
                 </div>
             </div>
-        </form>    
+</section>    
     </div>
 </div>

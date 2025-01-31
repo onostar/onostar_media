@@ -389,7 +389,7 @@
                         <figcaption>
                             <h3>Dorthpro point-of-sales</h3>
                             <p>A sales & Inventory management system for pharmacies, supermarkets and all retail/wholesale stores. With customized reports such as, expenses, item history, stock levels, expirations, etc. Its design to generate accurate analysis of sales, purchase and inventory</p><br>
-                            <a href="https://dems.dorthpro.com" target="_blank">View Demo <i class="fas fa-paper-plane"></i></a>
+                            <a href="https://dorthpro.com" target="_blank">View Demo <i class="fas fa-paper-plane"></i></a>
                         </figcaption>
                     </figure>
                     <figure>
@@ -475,6 +475,10 @@
             <h3>Our Clients</h3>
             <!-- <h4>We work with Amazing Clients</h4> -->
             <div class="partners">
+                <figure>
+                    <img src="images/asgard.jpg" alt="partners">
+                    <figcaption>Asgard Lounge & Restaurant</figcaption>
+                </figure>
                 <figure>
                     <img src="images/creamella.jpg" alt="partners">
                     <figcaption>Creamella Foods Ltd</figcaption>
@@ -570,7 +574,7 @@
             <div class="plans">
                 <?php
                     // get only four products
-                    $get_products = $connectdb->prepare("SELECT SUBSTRING_INDEX (details, ' ', 12) AS details, title, article_id, photo, post_date FROM articles ORDER BY post_date DESC LIMIT 4");
+                    $get_products = $connectdb->prepare("SELECT SUBSTRING_INDEX (details, ' ', 10) AS details, title, article_id, photo, post_date FROM articles ORDER BY post_date DESC LIMIT 4");
                     $get_products->execute();
                     if($get_products->rowCount() > 0){
                         $rows = $get_products->fetchAll();

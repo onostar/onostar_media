@@ -95,7 +95,7 @@
                     <!-- <p style="color:var(--moreColor);text-transform:uppercase;text-align:center;font-size:1rem;"><span></span></p> -->
                     
                     <h4><?php echo $row->title?></h4>
-                    <textarea style="width:100%; height:500px; border:none;"><?php echo $row->details?></textarea>
+                    <textarea style="width:100%; height:500px; border:none;" readonly><?php echo $row->details?></textarea>
                     
                 </div>
                 
